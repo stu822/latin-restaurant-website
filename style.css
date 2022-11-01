@@ -8,6 +8,18 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+/* Utilities */
+
+.btn {
+  padding: 1rem;
+  background-color: #282828;
+  color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.btn-primary {
+  background: #a30202;
+}
 #navbar {
   display: flex;
   justify-content: space-between;
@@ -16,6 +28,9 @@ body {
   padding: 0.5rem 1rem;
   background: #282828;
   color: #f5f5f5;
+  height: 70px;
+  position: fixed;
+  width: 100%;
 }
 
 #navbar .logo {
@@ -42,4 +57,37 @@ body {
 #navbar ul li a {
   text-decoration: none;
   color: #f5f5f5;
+}
+
+/* Hero Section */
+#hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("/imgs/bandeja-paisa1.jpg") no-repeat center center/cover;
+  color: #f5f5f5;
+  z-index: -2;
+  position: relative;
+}
+
+#hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+#hero h1 {
+  font-size: 2.5rem;
+}
+#hero a {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-top: 0.55rem;
 }
