@@ -214,3 +214,73 @@ body {
 #menu .menu-item img {
   width: 30%;
 }
+
+#contact.hero {
+  height: 100vh;
+  background: url("imgs/restuarant-bar.jpg") no-repeat center center/cover;
+}
+
+#about-us h2 {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+#about-us p {
+  margin-bottom: 1rem;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+#hours {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+
+#hours img {
+  width: 40%;
+}
+
+#hours ul li {
+  list-style: none;
+}
+
+#hours .info h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+#hours .info ul li {
+  line-height: 1.3rem;
+}
+
+#contact-us {
+  display: flex;
+  height: 100vh;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#contact-us img {
+  width: 40%;
+}
+
+#contact-us h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  /* text-align: center; */
+}
+
+/* #contact-us ul {
+  text-align: center;
+} */
+
+#contact-us ul li {
+  list-style: none;
+}
+.bolded {
+  font-weight: 600;
+}
