@@ -1,0 +1,42 @@
+/* Hero Section */
+
+#hero h1 {
+  font-size: 1.7rem;
+  text-align: center;
+  padding: 0.15rem;
+}
+
+#main .container {
+  width: 100%;
+}
+#main .container h2 {
+  font-size: 1.3rem;
+}
+
+#main .container .info-section {
+  display: flex;
+  flex-direction: column;
+}
+
+#main .info-section div {
+  width: 100%;
+}
+
+#main .info-section img {
+  max-width: 100%;
+  padding: 0.5rem 0;
+}
+
+#main .info-section:last-child {
+  margin-bottom: 2rem;
+}
+
+/* Footer */
+
+#footer ul {
+  display: none;
+}
+
+#footer ul li a {
+  font-size: 0.5rem;
+}
