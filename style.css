@@ -152,14 +152,19 @@ h1 {
 }
 
 #footer {
+  padding: 0.5rem;
+  color: var(--bg-light);
+}
+
+#footer .lg {
   display: flex;
   align-items: center;
   height: 100px;
   justify-content: space-between;
-  padding: 1rem;
-  color: var(--bg-light);
 }
-
+#footer .x-sm {
+  display: none;
+}
 #footer .logo {
   display: flex;
   align-items: center;

@@ -1,3 +1,14 @@
+#navbar {
+  display: block;
+}
+#navbar .logo {
+  display: flex;
+  justify-content: center;
+}
+#navbar ul {
+  display: none;
+}
+
 /* Hero Section */
 
 #hero h1 {
@@ -39,4 +50,23 @@
 
 #footer ul li a {
   font-size: 0.5rem;
+}
+
+#footer .lg {
+  display: none;
+}
+
+#footer .sm {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+#footer .sm a {
+  text-decoration: none;
+  color: var(--bg-light);
+}
+
+#footer .sm a.current {
+  text-decoration: underline;
 }
