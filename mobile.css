@@ -42,8 +42,41 @@
   margin-bottom: 2rem;
 }
 
-/* Footer */
+/* Menu Page */
+#menu .container h1 {
+  padding: 1.5rem auto;
+}
+#menu .container {
+  width: 100%;
+}
+#menu .menu-item {
+  flex-direction: column;
+  flex: 100%;
+}
 
+#menu .menu-item .menu-item-info {
+  width: 100%;
+}
+
+#menu .menu-item .menu-item-info h3 {
+  text-align: center;
+  margin: 0.75rem auto;
+  font-size: 1.3rem;
+}
+
+#menu .menu-item .menu-item-info ul li {
+  padding-bottom: 10px;
+}
+
+#menu .menu-item img {
+  width: 100%;
+}
+/* Footer */
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 #footer ul {
   display: none;
 }
